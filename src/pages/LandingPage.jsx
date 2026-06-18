@@ -12,6 +12,12 @@ export default function LandingPage() {
   const [loadingStats, setLoadingStats] = useState(true);
 
   useEffect(() => {
+    if (user) {
+      navigate('/dashboard', { replace: true });
+    }
+  }, [user, navigate]);
+
+  useEffect(() => {
     async function fetchStats() {
       try {
         const { data, error } = await supabase
