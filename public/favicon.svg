@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Solid Black Rounded Square Background -->
+  <rect width="512" height="512" rx="128" fill="#000000"/>
+  
+  <!-- Group scaled down to 85% and rotated 45 degrees, centered around (256, 256) -->
+  <g transform="translate(38.4 38.4) scale(0.85) rotate(45 256 256)">
+    <path d="M 256,300 L 256,210" stroke="#A3E635" stroke-width="28" stroke-linecap="round"/>
+    <circle cx="256" cy="190" r="28" fill="#A3E635"/>
+    <path d="M 120,300 A 136,136 0 0 0 392,300 A 180,180 0 0 1 120,300 Z" fill="#A3E635"/>
+    <path d="M 180,110 A 110,110 0 0 1 332,110" stroke="#A3E635" stroke-width="36" stroke-linecap="round" fill="none"/>
+    <path d="M 130,50 A 180,180 0 0 1 382,50" stroke="#A3E635" stroke-width="36" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

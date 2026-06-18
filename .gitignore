@@ -1,0 +1,25 @@
+# Ignore environment files
+env/.env
+/.env
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Node modules
+node_modules/
+
+# Editor directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Backup files
+*.bak
+
